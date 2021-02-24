@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-comm project</title>
-
+<link rel="stylesheet" href="design.css">
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <!-- Jquery -->
@@ -24,6 +24,31 @@
         height:490px;
         padding-top: 100px;
     }
-</style>
+    .custom-product{
+        height: 600px;
+    }
+    .text-slider{
+        background: #a2a6a95e;
+    }
+    .trending-img{
+        height:100px;
+    }
+    .trending-item{
+        float : left;
+       width : 20%;  
+    }
+    .trending-wrapper{
+        margin : 20px;
+    }
+    .detail-img{
+        width : 400px;
+        height : 400px;
+    }
+    .cart-list-divider{
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    </style>
 </script>
 </html>

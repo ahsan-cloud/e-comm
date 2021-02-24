@@ -21,6 +21,17 @@ use Illuminate\Support\Facades\Http;
  Route::get('/login', function () {
      return view('login');
  });
+ Route::get('/logout', function (){
+    Session::forget('user');
+    return redirect('login');
+ });
 //Route::view('/','login');
 Route::post('/login','UserController@login');
 Route::get('/','ProductController@index');
+Route::get('detail/{id}','ProductController@detail');
+Route::get('search','ProductController@search');
+Route::post('add_to_cart','ProductController@addCart');
+//Route::get('cart_count','ProductController@cartItem');
+Route::get('dummy','ProductController@dummy');
+Route::get('/cart_list','ProductController@cartList');
+Route::get('/removecart/{id}','ProductController@removeCart');

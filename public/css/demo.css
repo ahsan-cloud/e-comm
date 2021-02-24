@@ -1,0 +1,201 @@
+.tim-typo {
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .tim-typo .tim-note {
+    bottom: 5px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+  }
+  
+  /* offline-doc */
+  
+  .offline-doc .navbar.navbar-transparent {
+    padding-top: 25px;
+    border-bottom: none;
+  }
+  
+  .offline-doc .navbar.navbar-transparent .navbar-minimize {
+    display: none;
+  }
+  
+  .offline-doc .navbar.navbar-transparent .navbar-brand,
+  .offline-doc .navbar.navbar-transparent .collapse .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+  }
+  
+  .offline-doc .footer {
+    z-index: 3 !important;
+  }
+  
+  .offline-doc .page-header .container {
+    z-index: 3;
+  }
+  
+  .offline-doc .page-header:after {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  #map {
+    z-index: 2;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+  }
+  
+  
+  .card [class*="card-header-"] .card-icon, .card [class*="card-header-"] .card-text {
+      border-radius: 0px !important;
+      padding: 0px !important;
+      margin-top: 0px !important;
+      margin-right: 0px !important;
+      float: left;
+  }
+  
+  .card .card-title {
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+  }
+  
+  .card .card-body {
+      padding: 0.1375rem 20px;
+      position: relative;
+  }
+  
+  .card {
+      margin-bottom: 20px !important;
+      margin-top: 15px !important;
+  }
+  hr
+  {
+      padding: 0px;
+      margin: 0px;
+  }
+  .height-setting
+  {
+      min-height: 160px;
+  }
+  .heading-cs h4, .heading-cs h6
+  {
+      padding: 0px;
+      margin: 0px;
+      font-weight: bolder;
+  }
+  .container-fluid img 
+  {
+      width:80px;
+      height:80px;
+  }
+  .card-stats .card-header .card-category:not([class*="text-"])
+  {
+      color:#3C4858;
+  }
+  .card .gridcard.card-body 
+  {
+      padding: 10px;
+  }
+  .card.gridcard
+  {
+      margin-bottom: 10px !important;
+      margin-top: 8px !important;
+  }
+  
+  h4.card-title small 
+      {
+          color:#000 !important;
+      }
+       .card-stats .card-header .card-category:not([class*="text-"])
+      {
+          color:#000 !important;
+      }
+      .card-title strong span 
+      {
+         color:#000 !important;
+      }
+     
+      table tr th,table tr td
+      {
+          color:#000 !important;
+      }
+      
+      
+  @media (max-height: 786px) and (max-width: 1024px) 
+  {
+      .container-fluid img 
+      {
+          width:60px;
+          height:60px;
+      }
+      h4.card-title small 
+      {
+          font-size:10px;
+      }
+      .card [class*="card-header-"]:not(.card-header-icon):not(.card-header-text):not(.card-header-image)
+      {
+          font-size:12px;
+          padding:5px;
+      }
+      
+      .card-stats .card-header .card-category:not([class*="text-"])
+      {
+          font-size:12px;
+      }
+      .card-title strong span 
+      {
+          font-size:14px;
+      }
+      .card-stats .card-header.card-header-icon i
+      {
+          font-size: 22px;
+          line-height: 35px;
+          width: 32px;
+          height: 32px;
+      }
+      .card-stats .card-header .card-icon + .card-title, .card-stats .card-header .card-icon + .card-category 
+      {
+          padding:0px;
+      }
+      h3, .h3 
+      {
+          line-height:1.0em;    
+      }
+      table tr th,table tr td
+      {
+          font-size: 11px;
+      }
+      .card.gridcard
+      {
+          margin-bottom: 0px !important;
+          margin-top: 0px !important;
+      }
+      
+      h4 strong 
+      {
+           font-size:14px;
+      }
+      h4 small 
+      {
+           font-size:12px;
+      }
+      h4 
+      {
+          line-height: 1.0em;
+      }
+  }
